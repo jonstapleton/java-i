@@ -1,7 +1,7 @@
 
 import java.util.*;
 
-public class ConsoleProgram{
+public class Console{
 
     private Scanner scanner;
 
@@ -33,7 +33,7 @@ public class ConsoleProgram{
         /* Overridden by subclass */
     }
 
-    public ConsoleProgram(){
+    public Console(){
         scanner = new Scanner(System.in);
 
     }
